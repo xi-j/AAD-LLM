@@ -55,8 +55,10 @@ conda install -c conda-forge jupyterlab
 ```
 
 ---
-If you find this work helpful, please consider to cite
+
 ## Citation
+
+If you find this work helpful, please consider to cite
 ```text
 @inproceedings{jiang-etal-2025-aad,
     title = "{AAD}-{LLM}: Neural Attention-Driven Auditory Scene Understanding",
