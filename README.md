@@ -18,11 +18,44 @@ Official implementation of **AAD-LLM: Neural Attention-Driven Auditory Scene Und
 
 ---
 
+## Prerequisites
+
+Install necessary packages (including those required by [Qwen2-Audio](https://huggingface.co/Qwen/Qwen2-Audio-7B).
+
+```code
+conda create -n AADLLM python=3.11
+conda activate AADLLM
+pip install -r requirements.txt
+```
+Then, go to the source code of the transformers package you just installed. Find the file ***transformers/models/qwen2_audio/modeling_qwen2_audio.py***. Make two changes in Qwen2AudioEncoder.
+
+```code
+1. Removed the check input_features.shape[-1] != expected_seq_length
+2. hidden_states = inputs_embeds + embed_pos -> hidden_states = inputs_embeds + embed_pos[0:inputs_embeds.shape[1]]
+```
+
+---
+
 ## Checkpoints and Test Data
 
+The AAD-LLM checkpoint based on Qwen2-Audio and trained on K-Means of x-vectors (K=8) is [here](https://github.com/xi-j/AAD-LLM).
+
+samples/ folder contains public test mixtures of speeches from [LibriTTS](https://www.openslr.org/60) and background noise from [DEMAND](https://zenodo.org/records/1227121). 
+
+We apologize that we were unable to open-source clinical recordings and brain data.
+
+---
 
 ## Inference
 
+Please check **inference_Qwen2AADLLM.ipynb** for offline inference. We use the ground-truth x-vector label of the attended speaker to condition LLM's generation. To make it a BCI application, the x-vector label of the attended should be predicted from the brain (with your choice of the brain signal).
+
+```code
+conda install -c conda-forge jupyterlab
+```
+
+---
+If you find this work helpful, please consider to cite
 ## Citation
 ```text
 @inproceedings{jiang-etal-2025-aad,
