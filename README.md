@@ -38,7 +38,7 @@ Then, go to the source code of the transformers package you just installed. Find
 
 ## Checkpoints and Test Data
 
-The AAD-LLM checkpoint based on Qwen2-Audio and trained on K-Means of x-vectors (K=8) is [here](https://github.com/xi-j/AAD-LLM)](https://drive.google.com/drive/folders/1TpGkOoxY6mtYoIWSXLUYpGJ-FN9pC2Z9?usp=sharing).
+The AAD-LLM checkpoint based on Qwen2-Audio and trained on K-Means of x-vectors (K=8) is [here](https://drive.google.com/drive/folders/1TpGkOoxY6mtYoIWSXLUYpGJ-FN9pC2Z9?usp=sharing).
 
 samples/ folder contains public test mixtures of speeches from [LibriTTS](https://www.openslr.org/60) and background noise from [DEMAND](https://zenodo.org/records/1227121). 
 
