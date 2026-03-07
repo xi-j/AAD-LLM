@@ -1,0 +1,18 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+torch==2.3.1+cu118
+torchvision==0.18.1+cu118
+torchaudio==2.3.1+cu118
+
+git+https://github.com/huggingface/transformers
+
+numpy==1.26.4
+scipy==1.11.4
+scikit-learn==1.4.2
+numba==0.59.1
+librosa==0.10.2.post1
+peft
+accelerate
+sentencepiece
+soundfile
+speechbrain

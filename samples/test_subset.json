@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1,
+        "duration": 3.5799583333333334,
+        "path": "samples/mixture/1.wav",
+        "speeches": [
+            {
+                "duration": "3.5799583333333334",
+                "corpus": "LibriTTS",
+                "gender": "M",
+                "id": "160264",
+                "xvect8": "0",
+                "spk": "LibriTTS_3927",
+                "transcript": "It's a tight place, but luckily we've been well fed up to the present.",
+                "path": "samples/speaker1/1.wav"
+            },
+            {
+                "duration": "3.5799583333333334",
+                "corpus": "LibriTTS",
+                "gender": "F",
+                "id": "167755",
+                "xvect8": "6",
+                "spk": "LibriTTS_5400",
+                "transcript": "\"We don't ever kiss strangers-mamsie's told us not to.\"",
+                "path": "samples/speaker2/1.wav"
+            }
+        ],
+        "separated_paths": [
+            "samples/separated1/1.wav",
+            "samples/separated2/1.wav"
+        ],
+        "noise": {
+            "type": "METRO",
+            "channel": "13",
+            "path": "samples/noise/1.wav"
+        }
+    },
+    {
+        "id": 2,
+        "duration": 4.47,
+        "path": "samples/mixture/2.wav",
+        "speeches": [
+            {
+                "duration": "4.47",
+                "corpus": "LibriTTS",
+                "gender": "M",
+                "id": "202361",
+                "xvect8": "4",
+                "spk": "LibriTTS_922",
+                "transcript": "A spacesuited figure suddenly appeared in the tiny airlock, holding a coil of rope.",
+                "path": "samples/speaker1/2.wav"
+            },
+            {
+                "duration": "4.47",
+                "corpus": "LibriTTS",
+                "gender": "F",
+                "id": "203436",
+                "xvect8": "7",
+                "spk": "LibriTTS_3967",
+                "transcript": "The girl was still seated on the chair, but she had changed her attitude.",
+                "path": "samples/speaker2/2.wav"
+            }
+        ],
+        "separated_paths": [
+            "samples/separated1/2.wav",
+            "samples/separated2/2.wav"
+        ],
+        "noise": {
+            "type": "CAFE",
+            "channel": "05",
+            "path": "samples/noise/2.wav"
+        }
+    },
+    {
+        "id": 3,
+        "duration": 4.93,
+        "path": "samples/mixture/3.wav",
+        "speeches": [
+            {
+                "duration": "4.93",
+                "corpus": "LibriTTS",
+                "gender": "M",
+                "id": "152554",
+                "xvect8": "0",
+                "spk": "LibriTTS_8758",
+                "transcript": "In the North of England, a common expression of contempt is to call a person Cat faced.",
+                "path": "samples/speaker1/3.wav"
+            },
+            {
+                "duration": "4.93",
+                "corpus": "LibriTTS",
+                "gender": "M",
+                "id": "153036",
+                "xvect8": "5",
+                "spk": "LibriTTS_8527",
+                "transcript": "At other times, the limbs of the running horses get entangled in the ropes, when they are suddenly thrown.",
+                "path": "samples/speaker2/3.wav"
+            }
+        ],
+        "separated_paths": [
+            "samples/separated1/3.wav",
+            "samples/separated2/3.wav"
+        ],
+        "noise": {
+            "type": "CAFETER",
+            "channel": "08",
+            "path": "samples/noise/3.wav"
+        }
+    },
+    {
+        "id": 4,
+        "duration": 6.61,
+        "path": "samples/mixture/4.wav",
+        "speeches": [
+            {
+                "duration": "6.61",
+                "corpus": "LibriTTS",
+                "gender": "F",
+                "id": "100182",
+                "xvect8": "3",
+                "spk": "LibriTTS_3259",
+                "transcript": "The following is the statement of mrs Nolan, dictated upon her release, in the presence of mr Dudley Field Malone:",
+                "path": "samples/speaker1/4.wav"
+            },
+            {
+                "duration": "6.61",
+                "corpus": "LibriTTS",
+                "gender": "F",
+                "id": "104359",
+                "xvect8": "6",
+                "spk": "LibriTTS_3235",
+                "transcript": "They knew they should die and be buried at sea, and hoped they would if that would put an end to their sufferings.",
+                "path": "samples/speaker2/4.wav"
+            }
+        ],
+        "separated_paths": [
+            "samples/separated1/4.wav",
+            "samples/separated2/4.wav"
+        ],
+        "noise": {
+            "type": "STATION",
+            "channel": "11",
+            "path": "samples/noise/4.wav"
+        }
+    },
+    {
+        "id": 5,
+        "duration": 4.279958333333333,
+        "path": "samples/mixture/5.wav",
+        "speeches": [
+            {
+                "duration": "4.279916666666667",
+                "corpus": "LibriTTS",
+                "gender": "F",
+                "id": "177691",
+                "xvect8": "3",
+                "spk": "LibriTTS_7316",
+                "transcript": "How the solemn splendors of the half notes weave an atmosphere of mystic tragedy!",
+                "path": "samples/speaker1/5.wav"
+            },
+            {
+                "duration": "4.279958333333333",
+                "corpus": "LibriTTS",
+                "gender": "M",
+                "id": "82051",
+                "xvect8": "1",
+                "spk": "LibriTTS_839",
+                "transcript": "If it was going to enter the English Channel, it clearly needed to head east.",
+                "path": "samples/speaker2/5.wav"
+            }
+        ],
+        "separated_paths": [
+            "samples/separated1/5.wav",
+            "samples/separated2/5.wav"
+        ],
+        "noise": {
+            "type": "PSQUARE",
+            "channel": "06",
+            "path": "samples/noise/5.wav"
+        }
+    },
+    {
+        "id": 6,
+        "duration": 5.83,
+        "path": "samples/mixture/6.wav",
+        "speeches": [
+            {
+                "duration": "5.83",
+                "corpus": "LibriTTS",
+                "gender": "F",
+                "id": "121658",
+                "xvect8": "7",
+                "spk": "LibriTTS_8118",
+                "transcript": "The poor old pensioner had been true to her promise, and man's last garden was blooming like his first flower bed.",
+                "path": "samples/speaker1/6.wav"
+            },
+            {
+                "duration": "5.83",
+                "corpus": "LibriTTS",
+                "gender": "F",
+                "id": "124538",
+                "xvect8": "7",
+                "spk": "LibriTTS_274",
+                "transcript": "\"I shall pass all my life,\" thought D'Artagnan, \"in seeking for a man who is really contented with his lot.\"",
+                "path": "samples/speaker2/6.wav"
+            }
+        ],
+        "separated_paths": [
+            "samples/separated1/6.wav",
+            "samples/separated2/6.wav"
+        ],
+        "noise": {
+            "type": "PSQUARE",
+            "channel": "11",
+            "path": "samples/noise/6.wav"
+        }
+    },
+    {
+        "id": 7,
+        "duration": 3.92,
+        "path": "samples/mixture/7.wav",
+        "speeches": [
+            {
+                "duration": "3.92",
+                "corpus": "LibriTTS",
+                "gender": "F",
+                "id": "124438",
+                "xvect8": "2",
+                "spk": "LibriTTS_3083",
+                "transcript": "\"Seems like you are always hungry,\" laughed the older woman, in return.",
+                "path": "samples/speaker1/7.wav"
+            },
+            {
+                "duration": "3.92",
+                "corpus": "LibriTTS",
+                "gender": "F",
+                "id": "126844",
+                "xvect8": "2",
+                "spk": "LibriTTS_1463",
+                "transcript": "There's a great stirring in Islam, something moving on the face of the waters.",
+                "path": "samples/speaker2/7.wav"
+            }
+        ],
+        "separated_paths": [
+            "samples/separated1/7.wav",
+            "samples/separated2/7.wav"
+        ],
+        "noise": {
+            "type": "STATION",
+            "channel": "04",
+            "path": "samples/noise/7.wav"
+        }
+    },
+    {
+        "id": 8,
+        "duration": 3.1700416666666666,
+        "path": "samples/mixture/8.wav",
+        "speeches": [
+            {
+                "duration": "3.1700416666666666",
+                "corpus": "LibriTTS",
+                "gender": "F",
+                "id": "9937",
+                "xvect8": "2",
+                "spk": "LibriTTS_6189",
+                "transcript": "How changed he was, yet how much the same!",
+                "path": "samples/speaker1/8.wav"
+            },
+            {
+                "duration": "3.1700416666666666",
+                "corpus": "LibriTTS",
+                "gender": "F",
+                "id": "12800",
+                "xvect8": "7",
+                "spk": "LibriTTS_188",
+                "transcript": "But, Gilbert, people cannot live by furniture alone.",
+                "path": "samples/speaker2/8.wav"
+            }
+        ],
+        "separated_paths": [
+            "samples/separated1/8.wav",
+            "samples/separated2/8.wav"
+        ],
+        "noise": {
+            "type": "LIVING",
+            "channel": "05",
+            "path": "samples/noise/8.wav"
+        }
+    },
+    {
+        "id": 9,
+        "duration": 11.139958333333333,
+        "path": "samples/mixture/9.wav",
+        "speeches": [
+            {
+                "duration": "11.139958333333333",
+                "corpus": "LibriTTS",
+                "gender": "M",
+                "id": "172518",
+                "xvect8": "5",
+                "spk": "LibriTTS_2971",
+                "transcript": "Hence it gave to the mind and body a sharp and unearthly sensation when the ship cut and sank into the cloud as into any common mist, a thing without resistance.",
+                "path": "samples/speaker1/9.wav"
+            },
+            {
+                "duration": "11.139958333333333",
+                "corpus": "LibriTTS",
+                "gender": "F",
+                "id": "176597",
+                "xvect8": "3",
+                "spk": "LibriTTS_7286",
+                "transcript": "All this time Molly Hays had been caring for the wounded and carrying water to the thirsty gunners, using for the purpose the bucket that was attached to her husband's cannon for cleaning purposes.",
+                "path": "samples/speaker2/9.wav"
+            }
+        ],
+        "separated_paths": [
+            "samples/separated1/9.wav",
+            "samples/separated2/9.wav"
+        ],
+        "noise": {
+            "type": "MEETING",
+            "channel": "12",
+            "path": "samples/noise/9.wav"
+        }
+    },
+    {
+        "id": 10,
+        "duration": 14.310083333333333,
+        "path": "samples/mixture/10.wav",
+        "speeches": [
+            {
+                "duration": "14.310083333333333",
+                "corpus": "LibriTTS",
+                "gender": "F",
+                "id": "90216",
+                "xvect8": "7",
+                "spk": "LibriTTS_5339",
+                "transcript": "But Sylvia's listening ears caught her father's voice, as he and Kester returned homewards from their day's work in the plough field; and she started away, and fled upstairs in shy affright, leaving Charley to explain his presence in the solitary kitchen to her father.",
+                "path": "samples/speaker1/10.wav"
+            },
+            {
+                "duration": "14.310083333333333",
+                "corpus": "LibriTTS",
+                "gender": "F",
+                "id": "180921",
+                "xvect8": "7",
+                "spk": "LibriTTS_5684",
+                "transcript": "In about five minutes the crab brought out the shell which had fallen in, and carried it away to a distance of a foot; it then saw the three other shells lying near, and evidently thinking that they might likewise roll in, carried them to the spot where it had laid the first.",
+                "path": "samples/speaker2/10.wav"
+            }
+        ],
+        "separated_paths": [
+            "samples/separated1/10.wav",
+            "samples/separated2/10.wav"
+        ],
+        "noise": {
+            "type": "OFFICE",
+            "channel": "16",
+            "path": "samples/noise/10.wav"
+        }
+    }
+]
