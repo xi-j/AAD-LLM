@@ -48,7 +48,7 @@ We apologize that we were unable to open-source clinical recordings and brain da
 
 ## Inference
 
-Please check **inference_Qwen2AADLLM.ipynb** for offline inference. We use the ground-truth x-vector label of the attended speaker to condition LLM's generation. To make it a BCI application, the x-vector label of the attended should be predicted from the brain (with your choice of the brain signal).
+Please check **inference_Qwen2AADLLM.ipynb** for offline inference. We use the ground-truth x-vector label of the attended speaker to condition LLM's generation, and pre-separate the noisy speech mixtures by [Mamba-Tasnet](https://arxiv.org/abs/2407.09732). To make it a BCI application, the x-vector label of the attended should be predicted from the brain (with your choice of the brain signal).
 
 ```code
 conda install -c conda-forge jupyterlab
