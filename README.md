@@ -11,10 +11,17 @@ Official implementation of **AAD-LLM: Neural Attention-Driven Auditory Scene Und
 
 **AAD-LLM** is both an audio understanding model and a brain-computer interface that can selectively answer your question according to the listener's auditory attention from the speech mixture.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b3dbfba8-efc1-4dde-b149-fd55c2f84ee8" width="53%" />
+  <img src="https://github.com/user-attachments/assets/263e54ca-0c3e-44af-a098-1ebe9ca02d34" width="42%" />
+</p>
+
 ---
 
 ## Checkpoints and Test Data
 
+
+## Inference
 
 ## Citation
 ```text
